@@ -31,7 +31,7 @@ setTimeout(removeWatermark, 1000)
 
 export const App = () => {
   const backgroundImageStyle = {
-    backgroundImage: 'url(nepszi.jpg)', // Correct syntax for backgroundImage
+    backgroundImage: 'url(./assets/nepszi.jpg)', // Correct syntax for backgroundImage
     backgroundSize: 'cover', // Cover the entire container
     backgroundPosition: 'center', // Center the image
     backgroundRepeat: 'no-repeat', // Do not repeat the image
